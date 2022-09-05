@@ -1,0 +1,22 @@
+{
+  "name": "react-native-modal-presenter",
+  "version": "1.0.0",
+  "description": "A simple package to use as a presenter of custom modals on top of your app. It's based in Root Siblings and it can present multiple modals at once.",
+  "repository": "git@github.com:whitespectre/react-native-modal-presenter.git",
+  "author": "Whitespectre - Rui Lu & Lucas Diez de Medina",
+  "license": "MIT",
+  "private": false,
+  "main": "lib/index.tsx",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.8.2",
+    "@types/react": "^17.0",
+    "@types/react-native": "^0.63"
+  },
+  "dependencies": {
+    "react-native-root-siblings": "^4.1.1"
+  }
+}
